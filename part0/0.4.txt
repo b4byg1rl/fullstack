@@ -1,0 +1,12 @@
+browser-->server POST method ...exampleapp/new_note
+server-->browser text/html
+browser-->server GET method ...exampleapp/notes
+server-->browser text/html
+browser-->server GET method ...exampleapp/main.css
+server-->browser main.css
+browser-->server GET method ...exampleapp/main.js
+server-->browser main.js
+**browser executes main.js, main.js requests JSON
+browser-->server GET method ...exampleapp/data.JSON
+server-->browser [{JSON CONTENT HERE}]
+browser executes the event handler that renders notes to display

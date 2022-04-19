@@ -1,0 +1,9 @@
+browser-->server GET method ...exampleapp/spa
+server-->browser text/html
+browser-->server GET method ...exampleapp/main.css
+server-->browser main.css
+browser-->server GET method ...exampleapp/spa.js
+server-->browser spa.js
+**spa.js is executed
+browser-->server GET method ...exampleapp/data.json
+server-->browser [{JSON CONTENT HERE}]

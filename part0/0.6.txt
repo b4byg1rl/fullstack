@@ -1,0 +1,2 @@
+browser-->server POST method ...exampleapp/new_note_spa
+**event handler in js creates a note, adds it to the notes, renders the note list and sends the new note to the server
